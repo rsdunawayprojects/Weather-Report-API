@@ -1,0 +1,24 @@
+**TO USE THE WEATHER API**
+
+- When downloading the code, in your IDE, you firstly need to setup an acount to recieve an API Key to make the weather data calls
+- Go to https://openweathermap.org/ and create an account
+- On your account in the right corner (your username) click it and select "My API Keys"
+- From there, generate an API Key for your Weather Data to be called and logged 
+- Paste the API Key you generated in the API Key spot in-between the quotations, in the beginning, towards the top of the code
+
+
+
+**TO CHANGE WEATHER LOCATION OF WEATHER API DATA**
+
+- Lookup the longitude and lattitude Coordinates for the location you want the data to be pulled from
+- Paste the Longitude and Lattitude Coordinates in the Code above the API Key portion
+
+
+
+**CHANGE LOG FILE NAME FOR DATA RECORDED**
+
+- In line 10, just change the .txt file name at the end to a different name corresponding to your location (or whatever you want to name it)
+
+
+
+***ENJOY THIS WEATHER API CODE THAT I HAVE CREATED FOR A PYTHON FINAL PROJECT BACK IN COLLEGE***
