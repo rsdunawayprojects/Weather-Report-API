@@ -7,7 +7,7 @@ import os
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-log_file_path = os.path.join(os.getcwd(), 'toledoweatherlog.txt')
+log_file_path = os.path.join(os.getcwd(), 'weatherlog.txt')
 file_handler = logging.FileHandler(log_file_path, mode='a')
 file_handler.setLevel(logging.DEBUG)
 
@@ -87,3 +87,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
